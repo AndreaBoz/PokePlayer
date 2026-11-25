@@ -1,6 +1,6 @@
 # PokePlayer
 
-Agente basato su Reinforcement Learning (PPO con action masking) per battaglie Pokémon in formato `gen4randombattle`, tramite [poke-env](https://github.com/hsahovic/poke-env) e [Pokémon Showdown](https://github.com/smogon/pokemon-showdown).
+Agente basato su Reinforcement Learning (PPO con action masking) in grado di giocare strategicamente alle battaglie Pokémon in formato `gen4randombattle`, tramite [poke-env](https://github.com/hsahovic/poke-env) e [Pokémon Showdown](https://github.com/smogon/pokemon-showdown).
 
 - `pokeRL_v1_7.py`: script di training e valutazione (self-play, reward configurabile shaped/sparse, rete 256x256, 318 feature in osservazione).
 - `obs_space_helper_v1_7.py`: funzioni di estrazione del vettore delle osservazioni a partire dallo stato di battaglia.
